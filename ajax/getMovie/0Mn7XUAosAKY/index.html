@@ -1,0 +1,31 @@
+0{}<meta name="medium" content="video" />
+<div style="position:relative">
+    <div id="playerdiv_preview" align="center" style="width:550px;height:384px;">
+        This content requires the Adobe Flash Player 10.3. <a href="http://get.adobe.com/flashplayer/">Get Flash</a>
+    </div>
+    </div>
+<script type="text/javascript">
+var playerApiReady = false;
+function playerLoaded() {
+    playerApiReady = true;
+    jQuery(document).trigger('playerApiReady');
+};
+jQuery('#playerdiv_preview').flash({
+    id: "Player",
+    swf: "https://d3v4eglovri8yt.cloudfront.net/animation/e4693861bf2b9913/player.swf",
+    height: 384,
+    width: 550,
+    bgcolor: "#000000",
+    scale: "exactfit",
+    allowScriptAccess: "always",
+    allowFullScreen: "true",
+    wmode: "opaque",
+
+    hasVersion: "10.3",
+
+    flashvars: {"movieOwner":"cheekyboy","movieOwnerId":"09Wf2nkoH9rc","movieId":"0Mn7XUAosAKY","movieLid":"0","movieTitle":"A+Teacher%27s+tale..","movieDesc":"A+tribute+to+teachers+all+over+the+world..+You+build+character+and+mould+future+leaders..+While+sometimes%2C+it+seems+that+everything+is+against+you%2C+don%27t+give+up%21+You+do+make+a+difference.When+even+one+student+learns+-+you+have+taught+well..","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"https:\/\/goanimate.com\/","duration":"73","playcount":1,"thumbnailURL":"https:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/516\/585516\/2196573L.jpg","copyable":"0","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"1","appCode":"go","is_slideshow":"0","originalId":"0zEt_fo4L-5k","is_emessage":"0","storePath":"https:\/\/d3v4eglovri8yt.cloudfront.net\/store\/13c1ce4768651d63\/<store>","clientThemePath":"https:\/\/d3v4eglovri8yt.cloudfront.net\/static\/cfa730b132e2aaa6\/<client_theme>","animationPath":"https:\/\/d3v4eglovri8yt.cloudfront.net\/animation\/e4693861bf2b9913\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"1","showButtons":"1","chain_mids":"","averageRating":5,"ratingCount":"83","fb_app_url":"https:\/\/goanimate.com\/","ad":0,"endStyle":0,"isWide":0,"pwm":1,"s3base":"https:\/\/s3.amazonaws.com\/fs.goanimate.com\/,https:\/\/assets.goanimate.com\/","initcb":"playerLoaded"}});
+
+jQuery('#player-overlay-dismiss').click(function() {
+    jQuery('#player-overlay').hide();
+});
+</script>

@@ -1,0 +1,31 @@
+0{}<meta name="medium" content="video" />
+<div style="position:relative">
+    <div id="playerdiv_preview" align="center" style="width:550px;height:384px;">
+        This content requires the Adobe Flash Player 10.3. <a href="http://get.adobe.com/flashplayer/">Get Flash</a>
+    </div>
+    </div>
+<script type="text/javascript">
+var playerApiReady = false;
+function playerLoaded() {
+    playerApiReady = true;
+    jQuery(document).trigger('playerApiReady');
+};
+jQuery('#playerdiv_preview').flash({
+    id: "Player",
+    swf: "http://lightspeed.goanimate.com/animation/663ca5ec08087b3c/player.swf",
+    height: 384,
+    width: 550,
+    bgcolor: "#000000",
+    scale: "exactfit",
+    allowScriptAccess: "always",
+    allowFullScreen: "true",
+    wmode: "opaque",
+
+    hasVersion: "10.3",
+
+    flashvars: {"movieOwner":"Zakk Diggz","movieOwnerId":"0sRThYW29zhA","movieId":"0HAhxyQN3hBI","movieLid":"9","movieTitle":"Hangin%27+With+Dave","movieDesc":"Dave+wants+to+show+Eddie+pictures+in+his+picture+book+Eddie+doesn%27t+really+want+to+see%2C+and+you+don%27t+either.","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"http:\/\/goanimate.com\/","duration":"170","playcount":1,"thumbnailURL":"http:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/1989\/556989\/1013882L.jpg","copyable":"1","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"1","appCode":"go","is_slideshow":"0","originalId":"06ZSKsjRGcwQ","is_emessage":"0","storePath":"http:\/\/lightspeed.goanimate.com\/store\/3f81e7484f09affd\/<store>","clientThemePath":"http:\/\/lightspeed.goanimate.com\/static\/22a30d8b525000fa\/<client_theme>","animationPath":"http:\/\/lightspeed.goanimate.com\/animation\/663ca5ec08087b3c\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"1","showButtons":"1","chain_mids":"","averageRating":4.7906976744186,"ratingCount":"43","fb_app_url":"http:\/\/goanimate.com\/","ad":0,"endStyle":0,"isWide":0,"pwm":1,"s3base":"http:\/\/s3.amazonaws.com\/fs.goanimate.com\/,http:\/\/assets.goanimate.com\/","initcb":"playerLoaded"}});
+
+jQuery('#player-overlay-dismiss').click(function() {
+    jQuery('#player-overlay').hide();
+});
+</script>

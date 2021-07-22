@@ -1,0 +1,27 @@
+0{}<meta name="medium" content="video" />
+<div style="position:relative">
+	<div id="playerdiv_preview" align="center" style="width:550px;height:384px;">
+		This content requires the Adobe Flash Player 10.3. <a href="http://get.adobe.com/flashplayer/">Get Flash</a>
+	</div>
+</div>
+<script type="text/javascript">
+var playerApiReady = false;
+function playerLoaded() {
+	playerApiReady = true;
+	jQuery(document).trigger('playerApiReady');
+};
+jQuery('#playerdiv_preview').flash({
+	id: "Player",
+	swf: "http://lightspeed.goanimate.com/animation/c0205c9ec363a63e/player.swf",
+	height: 384,
+	width: 550,
+	bgcolor: "#000000",
+	scale: "exactfit",
+	allowScriptAccess: "always",
+	allowFullScreen: "true",
+	wmode: "opaque",
+
+	hasVersion: "10.3",
+
+	flashvars: {"movieOwner":"RoTV","movieOwnerId":"0Cvnk3ytdbdQ","movieId":"0e5NdbbZsvlc","movieLid":"4","movieTitle":"Reflections+of+Evil+-+The+Finale","movieDesc":"The+final+chapter+of+what+is+my+final+Trek+series+here+on+GoAnimate.","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"http:\/\/goanimate.com\/","duration":"614","playcount":1,"thumbnailURL":"http:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/591\/432591\/9141163L.jpg","copyable":"0","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"1","appCode":"go","is_slideshow":"0","originalId":"0fdhZwLcu9L0","is_emessage":"0","storePath":"http:\/\/lightspeed.goanimate.com\/store\/32faa59597d373c5\/<store>","clientThemePath":"http:\/\/lightspeed.goanimate.com\/static\/6a684d2304b2374f\/<client_theme>","animationPath":"http:\/\/lightspeed.goanimate.com\/animation\/c0205c9ec363a63e\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"1","showButtons":"1","chain_mids":"","averageRating":5,"ratingCount":"200","fb_app_url":"http:\/\/goanimate.com\/","ad":0,"endStyle":0,"isWide":0,"pwm":1,"s3base":"http:\/\/s3.amazonaws.com\/fs.goanimate.com\/","initcb":"playerLoaded"}});
+</script>
